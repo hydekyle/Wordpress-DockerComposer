@@ -1,0 +1,85 @@
+:root {
+  --theme-darkmode-bg-color: #121212;
+  --theme-darkmode-text-color: #fff;
+  --theme-darkmode-link-color: #fff;
+  --theme-darkmode-accent-color: #FFB9B9;
+  --theme-darkmode-accent-hover-color: #FF7C7C;
+  --theme-darkmode-btn-color: #000;
+  --theme-black-color: #000;
+
+  --theme-darkmode-rgb-color: 255, 255, 255;
+  --theme-alt-darkmode-rgb-color: 0, 0, 0;
+}
+
+[data-theme="dark"] .site-jumbotron-section {
+  --jumbotron-background-color: #444;
+  --jumbotron-text-color: #fff;
+}
+
+[data-theme="dark"] ::-moz-selection {
+  background: #ffffff;
+  color: #000000;
+}
+
+[data-theme="dark"] ::selection {
+  background: #ffffff;
+  color: #000000;
+}
+
+[data-theme="dark"] .data-bg {
+  background-color: #1c1c1c;
+}
+
+[data-theme="dark"] {
+  --theme-bg-color: var(--theme-darkmode-bg-color);
+  --theme-text-color: var(--theme-darkmode-text-color);
+
+  --theme-link-color: var(--theme-darkmode-link-color);
+  --preloader-throbber-bg: var(--theme-darkmode-text-color);
+  --theme-primary-color: var(--theme-darkmode-accent-color);
+  --theme-primary-hover-color: var(--theme-darkmode-accent-hover-color);
+  --swiper-theme-color: var(--theme-darkmode-accent-color);
+  --theme-btn-color: var(--theme-darkmode-btn-color);
+
+  --theme-rgb-color: var(--theme-darkmode-rgb-color);
+  --theme-alt-rgb-color: var(--theme-alt-darkmode-rgb-color);
+}
+
+[data-theme="dark"] body.custom-background {
+  background-color: var(--theme-darkmode-bg-color);
+}
+
+[data-theme="dark"] .header-ticker-bar {
+  background-color: #1e1e1e;
+}
+
+[data-theme="dark"] .article-border {
+  border-color: #616161;
+}
+
+[data-theme="dark"] .article-block-left :has(.entry-image) .entry-details {
+  background-color: #4d4d4d;
+}
+
+[data-theme="dark"] .site-header .masthead-top-header a:hover,
+[data-theme="dark"] .site-header .masthead-top-header a:focus {
+  color: var(--theme-darkmode-accent-hover-color);
+}
+
+[data-theme="dark"] .header-ticker-bar .ticker-news-title,
+[data-theme="dark"] .site .entry-meta-categories .category-has-background,
+[data-theme="dark"] .entry-meta-top a {
+  color: #000;
+}
+
+[data-theme="dark"] .entry-meta-top a:hover,
+[data-theme="dark"] .entry-meta-top a:focus {
+  color: #000;
+}
+
+[data-theme="dark"] .entry-meta-top a:hover,
+[data-theme="dark"] .entry-meta-top a:focus,
+[data-theme="dark"] .site .entry-meta-categories .category-has-background:hover,
+[data-theme="dark"] .site .entry-meta-categories .category-has-background:focus {
+  background-color: var(--theme-darkmode-accent-hover-color);
+}
